@@ -1,0 +1,77 @@
+@media screen and (max-width: 500px) {
+  .currencyTable {
+    border: 1px solid black;
+    width: 98vw;
+    margin: 50px auto;
+    font-size:.9rem;
+    th {
+      border: 1px solid black;
+      position: relative;
+      height: 50px;
+    }
+
+    th:nth-child(3) {
+      width: 30vw;
+    }
+
+    th:nth-child(2) {
+      width: 50vw;
+    }
+
+    .sortAlphabet {
+      position: relative;
+      margin: 5px auto;
+      display: flex;
+      width: 30px;
+      height: 20px;
+      right: 5px;
+    }
+  }
+}
+@media screen and (min-width:500px) and (max-width: 1024px) {
+  .currencyTable {
+    border: 1px solid black;
+    width:480px;
+    margin: 50px auto;
+
+    th {
+      border: 1px solid black;
+      position: relative;
+      height: 50px;
+    }
+
+    th:nth-child(3) {
+      width: 30vw;
+    }
+
+    th:nth-child(2) {
+      width: 50vw;
+    }
+
+    .sortAlphabet{
+      position:relative;
+      left:10px;
+    }
+  }
+}
+@media screen and (min-width:1024px) {
+  .currencyTable {
+    border: 1px solid black;
+    width: 600px;
+    margin: 50px auto;
+
+    th {
+      border: 1px solid black;
+    }
+
+    th:nth-child(3) {
+      width: 180px;
+    }
+
+    .sortAlphabet {
+      position: relative;
+      left: 10px;
+    }
+  }
+
+}

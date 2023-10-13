@@ -1,0 +1,121 @@
+@media screen and (max-width: 500px){
+  .itemArea{
+    width:100%;
+    height:70px;
+    border:1px solid red;
+    position:relative;
+    .currencyName{
+      font-size:1.2rem;
+      position:absolute;
+      top:10px;
+      left:20px;
+    }
+    .currencyValue{
+      width:60%;
+      height:20px;
+      position:absolute;
+      right:10px;
+      top:10px;
+    }
+    .currencyRus{
+      width:150px;
+      position:absolute;
+      bottom:5px;
+      right:10px;
+      color:grey;
+      font-size:.8rem;
+      text-align: right;
+    }
+    .delete{
+      position:absolute;
+      left:15px;
+      bottom:5px;
+      background:none;
+      border:1px solid black;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size:.8rem;
+    }
+  }
+}
+@media screen and (min-width:500px) and (max-width: 1024px){
+  .itemArea{
+    width:100%;
+    height:70px;
+    border:1px solid red;
+    position:relative;
+    .currencyName{
+      font-size:1.4rem;
+      position:absolute;
+      top:10px;
+      left:20px;
+    }
+    .currencyValue{
+      width:65%;
+      height:20px;
+      position:absolute;
+      right:10px;
+      top:10px;
+    }
+    .currencyRus{
+      width:150px;
+      position:absolute;
+      bottom:2px;
+      right:10px;
+      color:grey;
+      font-size:.9rem;
+      text-align: right;
+    }
+    .delete{
+      position:absolute;
+      left:15px;
+      bottom:5px;
+      background:none;
+      border:1px solid black;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size:.8rem;
+    }
+  }
+}
+@media screen and (min-width:1024px) {
+  .itemArea {
+    width: 100%;
+    height: 70px;
+    border: 1px solid red;
+    position: relative;
+
+    .currencyName {
+      font-size: 1.5rem;
+      position: absolute;
+      top: 10px;
+      left: 20px;
+    }
+
+    .currencyValue {
+      width: 60%;
+      height: 30px;
+      position: absolute;
+      right: 10px;
+      top: 10px;
+    }
+
+    .currencyRus {
+      position: absolute;
+      bottom: 5px;
+      right: 10px;
+      color: grey;
+      font-size:1rem;
+    }
+
+    .delete {
+      position: absolute;
+      left: 15px;
+      bottom: 5px;
+      background: none;
+      border: 1px solid black;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,6 @@
+export const lastTimeUpdated="http://localhost:3333/lastTimeUpdated"
+export const getEveryCurrency="http://localhost:3333/currency"
+export const getConvertedCurrencyValue="http://localhost:3333/currency/value"
+export const switchCurrency="http://localhost:3333/currency/hide"
+export const nameSort="http://localhost:3333/currency/namesort"
+export const valueSort="http://localhost:3333/currency/valuesort"
